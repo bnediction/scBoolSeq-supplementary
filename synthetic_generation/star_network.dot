@@ -1,0 +1,23 @@
+digraph  {
+tf;
+gene1;
+gene2;
+gene3;
+gene4;
+gene5;
+gene6;
+gene7;
+gene8;
+gene9;
+gene10;
+tf -> gene7  [key=0, label="+", sign=1];
+tf -> gene2  [key=0, label="+", sign=1];
+tf -> gene10  [key=0, label="+", sign=1];
+tf -> gene4  [key=0, label="+", sign=1];
+tf -> gene5  [key=0, label="+", sign=1];
+tf -> gene6  [key=0, label="+", sign=1];
+tf -> gene3  [key=0, label="+", sign=1];
+tf -> gene8  [key=0, label="+", sign=1];
+tf -> gene1  [key=0, label="+", sign=1];
+tf -> gene9  [key=0, label="+", sign=1];
+}

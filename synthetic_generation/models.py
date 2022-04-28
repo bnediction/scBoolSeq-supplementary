@@ -2,7 +2,7 @@
     Models for bifurcation trajectory reconstruction.
 """
 
-from .customobjs import ObjDict
+from scboolseq.utils.customobjs import ObjDict
 
 CELL_FATE = ObjDict(
     {
