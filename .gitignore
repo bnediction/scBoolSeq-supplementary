@@ -1,6 +1,8 @@
 
 # Manual ignore tags.
 **/ignore_*
+suppcode
+**/stream_branching/*
 
 # data directories :
 data
