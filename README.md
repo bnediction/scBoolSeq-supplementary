@@ -19,4 +19,3 @@ docker run --rm --entrypoint /usr/bin/env -v "$PWD/../:/data" -w /data -p 8989:8
     --NotebookApp.token=
 ```
 Then go to http://127.0.0.1:8989
-
