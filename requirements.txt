@@ -1,0 +1,10 @@
+scboolseq
+plotnine
+bonesis
+panda
+matplotlib
+numpy
+scikit-learn
+networkx
+umap-learn
+scanpy

@@ -2,13 +2,12 @@
 
 These notebooks demonstrate [scBoolSeq](https://github.com/bnediction/scBoolSeq) for scRNA-Seq binarization and synthetic generation from Boolean dynamical models.
 
-The notebooks can be visualized and downloaded at https://nbviewer.jupyter.org/github/bnediction/scBoolSeq-supplementary.
+The notebooks can be visualized and downloaded at https://nbviewer.org/github/bnediction/scBoolSeq-supplementary.
 
-Their execution require scBoolSeq installed (see https://github.com/bnediction/scBoolSeq#installation).
-Alternatively, they can be executed interactively within the [Docker](https://docs.docker.com/get-docker/) image `bnediction/scboolseq:v0`, with the following command:
+Their execution require scBoolSeq installed (see https://github.com/bnediction/scBoolSeq#installation) and Python packages listed in the file `requirements.txt`. Alternatively, they can be executed interactively within the [Docker](https://docs.docker.com/get-docker/) image `bnediction/scboolseq:v1`, with the following command:
 ```sh
 sudo python -m pip install -U colomoto-docker
-colomoto-docker --image bnediction/scboolseq -V v0
+colomoto-docker --image bnediction/scboolseq -V v1
 ```
 
 :warning: The notebooks `3.X - STREAM - ...` and `Variable Gene Selection ...` must be executed within a STREAM environment (which is not included in the above mentioned Docker image).

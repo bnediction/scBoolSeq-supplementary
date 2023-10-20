@@ -1,5 +1,5 @@
 IMAGE_NAME=bnediction/scboolseq
-IMAGE_TAG=v0
+IMAGE_TAG=v1
 IMAGE=$(IMAGE_NAME):$(IMAGE_TAG)
 
 build:

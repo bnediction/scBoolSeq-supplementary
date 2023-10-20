@@ -1,16 +1,18 @@
-FROM colomoto/colomoto-docker:2022-05-01
+FROM colomoto/colomoto-docker:2023-10-01
 
 ARG IMAGE_NAME
 ENV DOCKER_IMAGE=$IMAGE_NAME
 
 USER root
 
-RUN conda install -y plotnine
-
-RUN conda install -y scboolseq==0.8.3
+RUN conda install -y \
+        plotnine \
+        umap-learn \
+        scanpy \
+        scboolseq==2.0\
+    && conda clean -y --all && rm -rf /opt/conda/pkgs
 
 RUN rm -rf /notebook/*
-COPY --chown=user:user models /notebook/models/
-COPY --chown=user:user 1*.ipynb 2*.ipynb *.csv V*.ipynb /notebook/
+COPY --chown=user:user . /notebook/
 
 USER user
