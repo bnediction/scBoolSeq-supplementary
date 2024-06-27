@@ -1,10 +1,13 @@
 scboolseq
 plotnine
 bonesis
-panda
+pandas
 matplotlib
 numpy
 scikit-learn
 networkx
 umap-learn
 scanpy
+scikit-image
+igraph
+louvain
