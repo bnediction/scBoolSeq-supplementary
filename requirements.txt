@@ -3,6 +3,7 @@ plotnine
 bonesis
 pandas
 matplotlib
+matplotlib-venn
 numpy
 scikit-learn
 networkx
@@ -11,3 +12,4 @@ scanpy
 scikit-image
 igraph
 louvain
+jupyter
